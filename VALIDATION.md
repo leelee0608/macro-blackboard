@@ -8,3 +8,11 @@
 - 在 375px 與 1280px 寬度的預覽容器檢查首頁；375px 同時檢查傳統 LM 公式頁。扣除捲軸後頁面寬度與 scrollWidth 相同，未發現整頁橫向溢出。
 - 原生 MathML 實際顯示上、下標與公式；自編 SVG 圖可讀。
 - 未逐一以所有裝置與瀏覽器測試。GitHub Repository 與 GitHub Pages 尚未建立；不可將 Sites 私人網址宣稱為公開作業網址。
+
+## 2026-11-16 — GitHub 路徑修正驗證
+
+修正前公開網站：首頁 HTTP 200；notes/ch03/money-demand.html、notes/ch04/is-curve.html、assets/css/styles.css 均為 404；對應檔案放在根目錄時均為 HTTP 200。GitHub main 檔案樹亦確認未保留資料夾。
+
+本機恢復資料夾後，python3 scripts/check.py 通過全部 9 頁連結、資源、錨點、標題、16 個答案收合與例題驗算；node --check assets/js/main.js 通過。此次沒有更動頁面內容或 CSS，未重做視覺測試。
+
+本次提交恢復 GitHub Pages 所需目錄；公開部署結果另於提交後以實際網址檢查。

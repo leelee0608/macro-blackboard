@@ -1,6 +1,6 @@
 # 總經黑板
 
-個人總體經濟學講義網站，依課堂第三、四章整理八個核心概念與十六道自編題目。採深色黑板風格，內容包含概念與生活譬喻、模型假設、公式推導、必要圖形、收合解答、常見錯誤與考前重點。
+個人總體經濟學講義網站，依課堂第三至五章整理十四個核心概念與二十八道自編題目。採深色黑板風格，內容包含概念與生活譬喻、模型假設、公式推導、必要圖形、收合解答、常見錯誤與考前重點。
 
 - GitHub Repository：https://github.com/leelee0608/macro-blackboard
 - GitHub Pages：https://leelee0608.github.io/macro-blackboard/
@@ -15,8 +15,8 @@
 ## 檔案結構與後續擴充
 
 - index.html：首頁。
-- notes/ch03/ 與 notes/ch04/：每個概念一頁的講義。
-- assets/css/、assets/js/、assets/figures/ch04/：共用樣式、互動及圖形。
+- notes/ch03/、notes/ch04/ 與 notes/ch05/：每個概念一頁的講義。
+- assets/css/、assets/js/、assets/figures/ch04/、assets/figures/ch05/：共用樣式、互動及圖形。
 - templates/note-template.html：新講義模板；複製至 notes/chNN/ 後再填入內容。
 - references/README.md：課堂資料索引。
 - AGENTS.md：完整開發與教學規則。CLAUDE.md 指向同一文件。

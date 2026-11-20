@@ -39,5 +39,16 @@ for money,Y,r in [(360,800,F(4,100)),(395,850,F(3,100)),(300,F(5000,7),F(2,35))]
  assert money==F(1,2)*Y-1000*r
 assert 100+F(8,10)*(900-100)+(100-1000*F(4,100))+100==900
 for infl,Y in [(F(2,100),900),(F(3,100),875)]:assert 1000-5000*(F(1,100)+F(1,2)*infl)==Y
+# Chapter 05: independently verify teaching calculations and the plotted SRAS.
+assert F(6,20)>F(2,10) and F(6,20)>F(7,30)
+assert F(30,120)==F(1,4)
+for price,wage,N,Y in [(F(1),F(1),F(100),F(200)),(F(5,4),F(1),F(625,4),F(250)),(F(5,4),F(5,4),F(100),F(200))]:
+ assert (10*price/wage)**2==N and Y**2==400*N and Y==200*price/wage
+assert 200-100/F(4,5)==75
+assert F(108,105)-1==F(1,35)
+assert F(103,105)-1==F(-2,105)
+for expected,price,output in [(100,103,1060),(100,98,960),(102,103,1020)]:
+ assert 1000+20*(price-expected)==output
+ assert expected+F(output-1000,20)==price
 if issues:raise SystemExit('\n'.join(issues))
-print(f'PASS: {len(files)} pages, internal assets/links/anchors, unique headings/IDs, 16 initially closed answers, exact example calculations.')
+print(f'PASS: {len(files)} pages, internal assets/links/anchors, unique headings/IDs, {sum(q.details for q in pages.values())} initially closed answers, exact example calculations.')

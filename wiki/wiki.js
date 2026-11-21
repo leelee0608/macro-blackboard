@@ -1,0 +1,1 @@
+'use strict';const input=document.querySelector('#wiki-search');input?.addEventListener('input',()=>{let n=0;const query=input.value.trim().toLocaleLowerCase();document.querySelectorAll('.concept-card').forEach(card=>{card.hidden=!card.textContent.toLocaleLowerCase().includes(query);if(!card.hidden)n++});document.querySelector('#wiki-status').textContent=`顯示 ${n} 個概念`});

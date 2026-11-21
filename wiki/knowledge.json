@@ -1,0 +1,255 @@
+{
+  "topic": "為什麼印鈔不一定讓國家更有錢？",
+  "audience": "未學過總經的大學生",
+  "updated": "2026-11-21",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "貨幣與物價",
+      "filename": "03 Money and Prices(2).pdf",
+      "kind": "課堂資料",
+      "author": "使用者提供；作者未標示",
+      "date": "2026-11-06",
+      "locator": "PDF 第 2–6、24–25、29–30 頁",
+      "summary": "貨幣是被廣泛接受的支付工具。交換方程式 MV = PY 連結貨幣存量、流通速度、物價與實質產出；只有額外固定 V 與 Y，才能推出 P 與 M 成比例。",
+      "limit": "第 25 頁的比例關係須補明固定產出；不把恆等式本身當作因果證明。",
+      "method": "本機 PDF 文字擷取；第 24–25 頁圖像核對",
+      "concepts": [
+        "money-and-wealth",
+        "quantity-equation"
+      ],
+      "pages": 31,
+      "sha256": "e0c54c02065d2880a044a76a28ed567d855795ce7e0439e89658117e0f8bda33",
+      "text_chars": 7697
+    },
+    {
+      "id": "S02",
+      "title": "IS–LM 與總需求",
+      "filename": "04 The IS-LM Model and Aggregate Demand.pdf",
+      "kind": "課堂資料",
+      "author": "使用者提供；作者未標示",
+      "date": "2026-11-06",
+      "locator": "PDF 第 13–18、23–29、32–38 頁",
+      "summary": "傳統模型固定名目貨幣供給，物價影響實質貨幣餘額與均衡利率；現代版本用政策利率說明需求變動。總需求要配合供給條件，才能討論整體產出及物價。",
+      "limit": "第 34 頁為 P–Y 機制，第 36–38 頁轉為 π–Y；不直接拼成同一張圖。",
+      "method": "本機 PDF 文字擷取；第 38 頁圖像核對",
+      "concepts": [
+        "policy-and-demand"
+      ],
+      "pages": 38,
+      "sha256": "bdc69535f3ccddb025b36edfb4fb096ecc0cf203ed2b6f17c2bd0af85c65e94b",
+      "text_chars": 6606
+    },
+    {
+      "id": "S03",
+      "title": "總供給",
+      "filename": "05 The Aggregate Supply.pdf",
+      "kind": "課堂資料",
+      "author": "使用者提供；作者未標示",
+      "date": "2026-11-20",
+      "locator": "PDF 第 13–14、25–31、37–39 頁",
+      "summary": "工資或價格僵固、資訊不完全，可以讓短期產出偏離自然產出。課堂長期模型中，資本、勞動與技術決定自然產出。SRAS 的物價水準版本為 Y = Ȳ + b(P − Pᵉ)，b > 0。",
+      "limit": "第 14 頁縱軸為通膨率，第 39 頁為物價水準。長期結論屬本章模型，不宣稱貨幣政策在所有理論及現實情境都沒有長期影響。",
+      "method": "本機 PDF 文字擷取；第 14、37、39 頁圖像核對並補回遺失公式",
+      "concepts": [
+        "sticky-adjustment",
+        "short-and-long-run"
+      ],
+      "pages": 39,
+      "sha256": "51dd55434081074ff711cba2996ec76ed19374f20746ae63b3cf41ef04b89d0a",
+      "text_chars": 9875
+    },
+    {
+      "id": "S04",
+      "title": "Money creation in the modern economy",
+      "filename": "英格蘭銀行研究文章",
+      "kind": "課外補充",
+      "author": "Michael McLeay, Amar Radia, Ryland Thomas／Bank of England",
+      "date": "2014-03-14",
+      "url": "https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy",
+      "locator": "Quarterly Bulletin 2014 Q1，印刷頁 14–16（PDF 第 1–3 頁），Overview、Money creation in reality",
+      "summary": "商業銀行放款可同時創造存款；新增存款也伴隨借款人的負債。貨幣創造不等同印製紙鈔，銀行也不能無限制放款。",
+      "limit": "2014 年英國制度說明；不直接當作今日各國操作細節。只用於釐清貨幣種類與貸款／存款關係。",
+      "method": "公開網頁及 PDF 搜尋工具讀取；本機下載回傳 403，未保存或聲稱取得原始檔雜湊",
+      "concepts": [
+        "money-and-wealth",
+        "money-creation"
+      ]
+    },
+    {
+      "id": "S05",
+      "title": "Monetary Policy: What Are Its Goals? How Does It Work?",
+      "filename": "美國聯準會政策說明",
+      "kind": "課外補充",
+      "author": "Board of Governors of the Federal Reserve System",
+      "date": "網頁發布日未確認；查閱 2026-11-21",
+      "url": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+      "locator": "How does monetary policy work?；How changes in the federal funds rate affect the broader economy",
+      "summary": "政策利率影響金融條件與支出。需求相對生產能力的強弱，關係到就業及通膨壓力。",
+      "limit": "用來補充政策傳導的直觀說明；不能推出每次降息都保證景氣改善，也不把降息等同固定比例的貨幣增加。",
+      "method": "公開網頁搜尋工具讀取指定段落；本機下載回傳 403，未保存原始 HTML",
+      "concepts": [
+        "policy-and-demand",
+        "short-and-long-run"
+      ]
+    }
+  ],
+  "concepts": [
+    {
+      "id": "money-and-wealth",
+      "title": "錢變多，不等於東西變多",
+      "question": "「更有錢」究竟指什麼？",
+      "claim": "這份教學把「變富有」理解為能取得更多實際商品與服務。貨幣是交易工具，實質生產能力則涉及人力、設備及技術；兩者不能直接畫上等號。",
+      "analogy": "多發餐券不會讓廚房瞬間多做出便當。餐券對應名目購買力，便當對應實際產出。",
+      "limit": "餐券不是完整貨幣制度；現實中的支出、信貸、價格與生產都會反應。",
+      "sources": [
+        "S01",
+        "S03",
+        "S04"
+      ],
+      "related": [
+        "quantity-equation",
+        "money-creation"
+      ],
+      "blocks": {
+        "main": "真正要問的，是能買到多少東西。",
+        "body": "帳戶數字是名目金額；食物、住宅與服務是實際可用的資源。增加前者，不會自動等量增加後者。",
+        "example": "自編餐券例子：一天只有 100 份便當，發出兩倍餐券不代表立刻有 200 份便當。"
+      }
+    },
+    {
+      "id": "quantity-equation",
+      "title": "交換方程式與必要假設",
+      "question": "錢多一倍，物價就一定多一倍嗎？",
+      "claim": "MV = PY 是交換方程式，V 定義為 PY/M。它本身沒有指定哪一個變數先改變。當 V、Y 固定，才有 P = MV/Y，並得到 M 倍增使 P 倍增。",
+      "analogy": "同一筆錢在一段時間內能轉手多次；V 記錄這個周轉程度。",
+      "limit": "方程式不是完整的貨幣傳導模型，不能單靠它預測調整速度或價格分配。",
+      "sources": [
+        "S01"
+      ],
+      "related": [
+        "money-and-wealth",
+        "short-and-long-run"
+      ],
+      "blocks": {
+        "main": "「錢多一倍，價格翻倍」有前提。",
+        "body": "固定流通速度 V 與實質產出 Y，P 才會跟 M 同比例變動。若產量或周轉速度也變動，結果就不同。",
+        "assumptions": "自編簡化市場：V = 1，每期只有一種便當，P 為元／份，Y 為份／期，M 為元。全部交易以此貨幣完成。",
+        "formula": "MV = PY；固定 V = 1 時，P = M/Y。",
+        "example": "M = 1,000、Y = 100，P = 10；M = 2,000、Y = 100，P = 20；若 Y 同時變成 200，P 回到 10。這是條件式比較，不是物價預測。"
+      }
+    },
+    {
+      "id": "policy-and-demand",
+      "title": "貨幣政策如何影響需求",
+      "question": "如果錢不等於財富，為什麼還要貨幣政策？",
+      "claim": "在課堂模型中，放寬貨幣條件可以降低融資成本、鼓勵支出與投資，帶動需求；產出如何反應仍取決於供給與短期調整。傳統固定貨幣供給模型與現代利率操作須區分。",
+      "analogy": "降低烘焙坊借錢的成本，可能讓店主願意添設備或多接訂單。",
+      "limit": "利率只是決策的一部分，訂單預期、借款風險與銀行放款意願也會影響結果。",
+      "sources": [
+        "S02",
+        "S05"
+      ],
+      "related": [
+        "sticky-adjustment",
+        "short-and-long-run"
+      ],
+      "blocks": {
+        "main": "政策能推動需求，效果仍有條件。",
+        "body": "在課堂模型的條件下：融資成本下降，部分消費與投資增加，企業接到更多訂單。",
+        "chain": [
+          "融資成本下降",
+          "消費與投資增加",
+          "需求增加",
+          "短期產出可能增加"
+        ],
+        "caution": "不是每個人都願意借錢，也不是每家企業都能增產。這裡解釋可能的傳導方向，不保證幅度。"
+      }
+    },
+    {
+      "id": "sticky-adjustment",
+      "title": "工資與價格為什麼來不及調整",
+      "question": "短期為何可能真的多生產？",
+      "claim": "名目工資 W 暫時固定時，P 上升使實質工資 W/P 下降。在課堂給定技術、可調整僱用等條件下，企業可能增加勞動與產出。價格僵固及資訊不完全也可形成短期反應，但不是同一條機制。",
+      "analogy": "店家先簽了薪資合約，之後產品價格變動；薪資合約不一定當天重訂。",
+      "limit": "單一店家的售價不是總體物價；原料成本與需求也可能改變，不能忽略模型條件。",
+      "sources": [
+        "S03"
+      ],
+      "related": [
+        "policy-and-demand",
+        "short-and-long-run"
+      ],
+      "blocks": {
+        "main": "價格與工資，不會一起立刻調好。",
+        "body": "先簽好的薪資合約，使名目工資暫時固定。物價上升後，實質勞動成本下降；在本章假設下，企業可能增加僱用與產出。",
+        "example": "自編數值：W = 100、P = 1 時，W/P = 100；若 W 不變、P = 1.25，W/P = 80。實質工資下降 20%，不是 25%。",
+        "caution": "等工資與預期調整後，這個暫時效果不必持續。"
+      }
+    },
+    {
+      "id": "short-and-long-run",
+      "title": "短期擴張與長期生產能力",
+      "question": "為什麼短期與長期的答案不同？",
+      "claim": "依課堂基準模型，固定實質資源及技術，需求擴張可暫時提高 Y；工資、價格及預期調整後，Y 回到自然產出 Ȳ。LRAS 垂直不代表政策無用，而是不能靠永久擴張名目需求保證永久提高實質產出。",
+      "analogy": "烘焙坊短期可以加班；長期能穩定做多少麵包，仍受設備、人力及技術限制。",
+      "limit": "本教學採課堂長期基準，不宣稱所有理論均排除政策的長期效果；自然產出也不是物理最大產量。",
+      "sources": [
+        "S02",
+        "S03",
+        "S05"
+      ],
+      "related": [
+        "quantity-equation",
+        "sticky-adjustment"
+      ],
+      "blocks": {
+        "main": "能把需求拉高，不等於能永久把產能拉高。",
+        "body": "本章長期基準：資本、勞動與技術固定，調整完成後實質產出回到自然水準；物價可以高於原先。",
+        "assumptions": "圖為自編模型：原 AD 為 P = 200 − Y，擴張後 AD 為 P = 220 − Y；原 SRAS 為 P = Y，調整後為 P = Y + 20；LRAS 為 Y = 100。P 是指數，Y 是每期產出單位。",
+        "points": [
+          [
+            100,
+            100
+          ],
+          [
+            110,
+            110
+          ],
+          [
+            100,
+            120
+          ]
+        ],
+        "summary": [
+          "初始：Y = 100，P = 100",
+          "短期：需求增加，Y = 110，P = 110",
+          "長期：預期與成本調整，Y = 100，P = 120"
+        ],
+        "caution": "這是一次需求擴張的比較靜態，不是預測價格會永遠每期上漲。"
+      }
+    },
+    {
+      "id": "money-creation",
+      "title": "「印鈔」只是方便的說法",
+      "question": "現代貨幣都是央行印出的紙鈔嗎？",
+      "claim": "本題用「印鈔」引出貨幣擴張，但要區分現鈔、銀行存款與央行準備金。三者不是同一種資產。",
+      "analogy": "轉帳付款時，使用的是銀行帳戶紀錄，不需要每筆交易搬運紙鈔。",
+      "limit": "本頁補充英國文章的貨幣創造機制；不把它直接套為各國制度全貌。",
+      "sources": [
+        "S04",
+        "S01"
+      ],
+      "related": [
+        "money-and-wealth",
+        "policy-and-demand"
+      ],
+      "blocks": {
+        "main": "先釐清：「印鈔」不只有印紙鈔。",
+        "body": "現鈔、銀行存款與央行準備金要分開看。商業銀行放款可同時增加存款，也增加借款人的負債。",
+        "example": "自編示例：借到 10 萬元，存款增加 10 萬，同時負債也增加 10 萬；不代表淨資產憑空增加 10 萬。",
+        "caution": "課外補充 S04；此簡報不深入各國央行操作細節。"
+      }
+    }
+  ]
+}

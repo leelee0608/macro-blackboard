@@ -185,3 +185,12 @@
 - 新增講義時，除首頁卡片外，同步更新首頁、現有講義與模板中的章節導覽；每頁仍須能返回首頁。
 - 題目與詳解之外的概念正文不收合。已讀紀錄為瀏覽器本機狀態，不等同學習成效。
 - 實際檢查指令：python3 scripts/check.py；靜態輸出指令：python3 scripts/build.py。
+
+## 11. LLM Wiki 與教學簡報
+
+- Wiki 是跨章節的概念知識庫，位於 wiki/；簡報位於 slides/money/，與既有 A–H 格式的課堂講義分開。
+- 先討論主題、讀者與範圍，再取得資料。每份來源保留獨立 ID、採用頁碼或段落、摘要、限制與概念連結；五份來源不能用同一份資料拆成五頁代替。
+- 新資料先核對公式、圖軸與假設，再搜尋並更新既有概念。課外補充明確標示；不可公開原始課堂 PDF。
+- knowledge.json 保存已核對的概念；slide-plan.json 記錄投影片引用的概念。修改資料後執行 scripts/build_wiki.py，勿只修改生成 HTML。
+- run.json 只記錄實際觀察、修正與檢查，不捏造模型執行、學習成效或錯誤。靜態建置不等於自動 LLM ingestion。
+- 執行 python3 scripts/check.py 與 python3 scripts/check_wiki.py，再執行 python3 scripts/build.py；檢查桌面與手機、翻頁、互動與來源連結。

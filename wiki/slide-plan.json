@@ -1,0 +1,97 @@
+[
+  {
+    "id": "opening",
+    "concepts": [
+      "money-and-wealth"
+    ],
+    "label": "今天的問題"
+  },
+  {
+    "id": "shop",
+    "concepts": [
+      "money-and-wealth",
+      "quantity-equation"
+    ],
+    "label": "先想一個小市場"
+  },
+  {
+    "id": "creation",
+    "concepts": [
+      "money-creation"
+    ],
+    "label": "釐清用詞"
+  },
+  {
+    "id": "equation",
+    "concepts": [
+      "quantity-equation"
+    ],
+    "label": "一條公式，三個條件"
+  },
+  {
+    "id": "demand",
+    "concepts": [
+      "policy-and-demand"
+    ],
+    "label": "為什麼還要貨幣政策"
+  },
+  {
+    "id": "sticky",
+    "concepts": [
+      "sticky-adjustment"
+    ],
+    "label": "短期的關鍵"
+  },
+  {
+    "id": "graph",
+    "concepts": [
+      "short-and-long-run"
+    ],
+    "label": "把時間拉長來看"
+  },
+  {
+    "id": "longrun",
+    "concepts": [
+      "short-and-long-run"
+    ],
+    "label": "回到真正的生產能力"
+  },
+  {
+    "id": "pitfalls",
+    "concepts": [
+      "quantity-equation",
+      "short-and-long-run",
+      "money-creation"
+    ],
+    "label": "三個不能省略的區分"
+  },
+  {
+    "id": "quiz",
+    "concepts": [
+      "money-and-wealth",
+      "quantity-equation",
+      "short-and-long-run"
+    ],
+    "label": "換你判斷"
+  },
+  {
+    "id": "recap",
+    "concepts": [
+      "policy-and-demand",
+      "short-and-long-run"
+    ],
+    "label": "用自己的話回答"
+  },
+  {
+    "id": "trace",
+    "concepts": [
+      "money-and-wealth",
+      "quantity-equation",
+      "policy-and-demand",
+      "sticky-adjustment",
+      "short-and-long-run",
+      "money-creation"
+    ],
+    "label": "這份簡報從哪裡來"
+  }
+]

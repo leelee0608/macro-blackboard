@@ -25,3 +25,7 @@
 | [SRAS：物價預期與曲線位移](../notes/ch05/sras-expectations.html) | 37–39（比較第 14 頁） |
 
 第 14 頁為通膨率縱軸，第 37–39 頁為物價水準版本，網站明確區分。第 37 頁文字圖以 a 表係數、方程式以 b 表係數；網站統一沿用方程式的 b，兩者不作不同參數解讀。效率工資微分、生產函數及勞動需求、個別廠商需求函數及數值題均為自編教學化。歷史案例僅概述教材，不另估計因果效果。原始 PDF 不公開。
+
+## LLM Wiki 專題
+
+五份來源的採用位置、摘要與限制見 [Wiki 來源索引](../wiki/index.html) 與 [結構化資料](../wiki/knowledge.json)。S01–S03 對應第三至五章；S04 為 Bank of England〈Money creation in the modern economy〉；S05 為 Federal Reserve〈Monetary Policy: What Are Its Goals? How Does It Work?〉。外部補充不宣稱為老師指定考試內容。

@@ -26,3 +26,14 @@ AI 新增講義前須閱讀 AGENTS.md，重用模板及共用資源，同步更�
 ## 技術與限制
 
 公式使用瀏覽器原生 MathML Core，設定記於 assets/js/math-config.js，無 CDN 依賴。閱讀紀錄僅儲存在目前瀏覽器。講義是核心概念整理，並非教材逐頁翻譯；原始 PDF 未包含在公開專案。來源頁碼與自編題目標記見各篇講義。
+
+## LLM Wiki 作業（2026-11-21）
+
+主題：為什麼印鈔不一定讓國家更有錢？三份課堂 PDF 與兩篇官方補充，整理為六個概念與十二張教學投影片。
+
+- [Wiki](https://leelee0608.github.io/macro-blackboard/wiki/)
+- [教學 HTML 簡報](https://leelee0608.github.io/macro-blackboard/slides/money/)
+- [流程、實際檢查與反思](https://leelee0608.github.io/macro-blackboard/wiki/workflow.html)
+- [繳交文字](wiki/submission.md)
+
+新增資料：核對原文 → 更新 wiki/knowledge.json 的來源及概念 → 更新 wiki/slide-plan.json → 寫入 wiki/run.json 真實紀錄 → 執行 python3 scripts/build_wiki.py → python3 scripts/check_wiki.py。發布前亦執行原有 scripts/check.py、scripts/build.py。Python 建置重用已整理知識，不會自動呼叫 LLM。原始教材不公開。
